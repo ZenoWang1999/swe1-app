@@ -5,3 +5,12 @@ exclude =
     __pycache__,
     env,
     venv,
+
+# noqa: F401
+# noqa: W293
+# noqa: E302
+# noqa: E251
+# noqa: E275
+# noqa: W292
+# noqa: E251
+# noqa: E501
