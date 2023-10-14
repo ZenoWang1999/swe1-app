@@ -1,3 +1,4 @@
+black @ git+https://github.com/psf/black@935f303a0a7b794e722c7df00c906be285884874
 botocore==1.31.57
 cement==2.8.2
 certifi==2023.7.22
