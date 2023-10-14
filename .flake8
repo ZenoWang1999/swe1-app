@@ -6,6 +6,9 @@ exclude =
     env,
     venv,
 
+extend-ignore =
+    E203,
+
 # noqa: F401
 # noqa: W293
 # noqa: E302
