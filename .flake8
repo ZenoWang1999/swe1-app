@@ -15,8 +15,7 @@ extend-ignore =
     E275,
     W292,
     E251,
-    E501,
-    BLK100
+    E501
 
 # noqa: F401
 # noqa: W293
