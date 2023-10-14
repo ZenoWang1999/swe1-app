@@ -1,7 +1,7 @@
 django==2.2
 gunicorn
 dj-database-url
-black==22.1.0
+black==22.3.0
 flake8
 coverage
 coveralls
