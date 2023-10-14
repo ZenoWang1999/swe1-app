@@ -203,10 +203,6 @@ terminado==0.17.1
 threadpoolctl==3.1.0
 tifffile==2023.4.12
 tinycss2==1.2.1
-torch @ file:///E:/Code/WebGUI/torch-1.13.0%2Bcu117-cp39-cp39-win_amd64.whl#sha256=609017e9c9f0e20e6e4b82caab3c3c998e347bb179618777ef3570ca206bc283
-torchaudio @ file:///E:/Code/SVC/torchaudio-0.13.0%2Bcu117-cp39-cp39-win_amd64.whl#sha256=8168629a521b848abeb83cb2cb0aa19cee172686110e3814783a824e4991757e
-torchcrepe==0.0.18
-torchvision @ file:///E:/Code/SVC/torchvision-0.14.0%2Bcu117-cp39-cp39-win_amd64.whl#sha256=9daef60a1484389c261cac3e813232dccca7ed9491e08152471e7718131becb3
 tornado==6.2
 tqdm==4.63.0
 traitlets==5.9.0
