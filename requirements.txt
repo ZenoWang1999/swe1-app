@@ -8,3 +8,4 @@ coveralls
 psycopg2
 whitenoise
 flake8-black
+openssl@1.1
