@@ -28,7 +28,7 @@ deploy:
   access_key_id:
     secure: "Encrypted AKIA3NOQGZRQYWHHDUJC="
   secret_access_key:
-    secyre: "Encypted LLRzxAAKIkUpD0HNxMNyDxWahTkKm/QsC5pHDtZN="
+    secure: "Encypted LLRzxAAKIkUpD0HNxMNyDxWahTkKm/QsC5pHDtZN="
   region: "us-west-2"
   app: "django-tutorial"
   env: "django-env"
