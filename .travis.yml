@@ -22,3 +22,15 @@ script:
 
 after_script:
   - coveralls
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $AKIA3NOQGZRQYWHHDUJC
+  secret_access_key: $LLRzxAAKIkUpD0HNxMNyDxWahTkKm/QsC5pHDtZN
+  region: "us-west-2"
+  app: "django-tutorial"
+  env: "django-env"
+  bucket_name: "elasticbeanstalk-us-west-2-784805055585"
+  on:
+    repo: ZenoWang1999/swe1-app
+    branch: main
