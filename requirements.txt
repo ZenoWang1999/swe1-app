@@ -1,4 +1,4 @@
-django==4.2
+django==2.2
 gunicorn
 dj-database-url
 black==22.1.0
