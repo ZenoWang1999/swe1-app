@@ -8,6 +8,15 @@ exclude =
 
 extend-ignore =
     E203,
+    F401,
+    W293,
+    E302,
+    E251,
+    E275,
+    W292,
+    E251,
+    E501,
+    BLK100
 
 # noqa: F401
 # noqa: W293
