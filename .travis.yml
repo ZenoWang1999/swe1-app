@@ -12,6 +12,7 @@ before_script:
 - python manage.py collectstatic --noinput
 - black .
 script:
+- git checkout
 - black --check .
 - flake8 .
 - coverage run --source=ebdjango,polls manage.py test
@@ -20,7 +21,7 @@ after_script:
 after_success:
   coveralls
 deploy:
-  provider: elasticbeanstalk
+- provider: elasticbeanstalk
   access_key_id: $AWS_ACCESS_ID
   secret_access_key: $SECRET_KEY
   region: $REGION
@@ -28,5 +29,4 @@ deploy:
   env: $ENV
   bucket_name: $BUCKET
   on:
-    repo: ZenoWang1999/swe1-app
     branch: main
