@@ -3,4 +3,4 @@
 
 # swe1-app
 ## AWS Link:
-  django-env.eba-eaqdwyq2.us-west-2.elasticbeanstalk.com
+  django-env.eba-eaqdwyq2.us-west-2.elasticbeanstalk.com 
